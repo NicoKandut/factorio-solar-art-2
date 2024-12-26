@@ -1,0 +1,49 @@
+@layer reset {
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: unset;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		margin: unset;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	span,
+	label {
+		user-select: none;
+	}
+
+	button {
+		padding: unset;
+		border: unset;
+		background: unset;
+	}
+
+	input {
+		padding: unset;
+		border: unset;
+		background: unset;
+	}
+
+	select {
+		padding: unset;
+		border: unset;
+		background: unset;
+	}
+}
